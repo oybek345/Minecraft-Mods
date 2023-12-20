@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background:rgba(0,0,0,0.5);
+    padding: 10px  10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+
+}
+.click a{
+   border: 0;
+    background-color: transparent;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.click{
+    margin-left: 400px;
+    margin-top: 12px;
+}
+.click a:hover{
+    color: green;
+    transition: 0.5s
+    
+}
+.signs #log {  
+    border: 0;
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    margin-top:-5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signs #sign{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid green;
+    background-color: transparent;
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signs{
+    margin-left: 350px;
+    margin-top: 2px;
+}
+.signs #sign:hover{
+background-color: green;
+color: black;
+transition: 0.5s;
+}
+.signs #log:hover{
+    color: green;
+    transition: 0.5s;
+}
+.click a:focus{
+    color: green !important;
+}
+#home h1{
+    margin-top: 180px;
+    font-size: 90px;
+    margin-left: 170px;
+    color: white;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+.btn a{
+    font-size: 60px;
+    text-decoration: none;
+}
+.btn .bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 600px;
+    margin-top:270px;
+}
+.btn .bg a{
+    color: white;
+}
+#home{
+    display: flex;
+    
+}
+.signs{
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(/a.jpg)no-repeat center/cover;
+}
+#about{
+    margin-top: 290px;
+}
+.kotta{
+    margin-top: -300px;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background: #F1F5F8FF;
+}
+.chap img{
+    margin-left: 180px;
+    border-radius: 10px;
+}
+.ung .btn button{
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color:#DAE2ECFF;
+    font-size: 20px;
+}
+.ung .btn{
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+}
+#btn1{
+border-radius: 10px 0px 0px 0px;
+}
+#btn3{
+    border-radius: 0px 10px 0px 0px;
+    
+}
+.ung{
+    margin-left: 40px;
+}
+.ung .btn button:focus{
+    background: white !important;
+}
+.df{
+    display: flex;
+}
+.text #card1{
+    font-size: 20px;
+    width: 540px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+.text #card2{
+    font-size: 20px;
+    width: 540px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+.text #card3{
+    font-size: 20px;
+    width: 540px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+
+
+#portfolio{
+    padding-top: 300px;
+    padding-left: 40px;
+}
+#portfolio img{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#portfolio .qator1 img{
+    overflow: hidden;
+}
+#portfolio .qator1 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#portfolio .qator2 img{
+    overflow: hidden;
+}
+#portfolio .qator2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#mods li{
+    font-size: 70px;
+    list-style: none;
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+#mods li a{
+     text-decoration: none;
+    color: black;     
+}
+#mods{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #F1F5F8FF;
+}
+#mods .stolb1{
+margin-top: 70px;
+padding-left: 100px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#mods .stolb2{
+    margin-top: 70px;
+    margin-left: 580px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.i1,.i2,.i3{
+width: 70px;
+height: 70px;
+background-color: green;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+border-radius: 10px;
+margin-top: 30px;
+color: white;
+
+}
+.text1,.text2,.text3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qat1,.qat2,.qat3{
+    display: flex;
+    margin-left: 70px;
+}
+.qat2,.qat3{
+    margin-top: 40px;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.ung1 .qator21 input{
+    width: 440px;
+    height: 60px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.ung1 .qator21 input:nth-child(2){
+margin-left: 20px;
+
+}
+.ung1 .qator21{
+    display: flex;
+}
+.ung1  .qator22 input{
+    width: 900px;
+    height: 60px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 20px;
+}
+.ung1 .qator22 input,.ung1 .qator21 input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.ung1 .qator23 textarea{
+    width: 900px;
+    height: 300px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.ung1 .qator23 textarea::placeholder{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ung1{
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.chap1{
+    margin-top: 140px;
+}
+input[type=text]:focus {
+    border: 3px solid green;
+  }
+  textarea:focus {
+    border: 3px solid green;
+  }
+  .ung1 .button button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: green;
+    border: 0;
+    margin-top: 20px;
+    margin-left: 410px;
+  }
+  .ung1 .button button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    color: black;
+    transition: 0.5s;
+  }
+.texttext,.textbtn{
+font-size: 20px;
+animation: 4s oybek infinite;
+display: none;
+}
+@keyframes oybek{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 650px; 
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+#inone i{
+    font-size: 40px;
+    display: none;
+    margin-left: 370px;
+
+}
+@media  screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .click{
+        display: none;
+    }
+    .inone i{
+        display: block;
+        color: white;
+    }
+    .signs{
+        display: none;
+    }
+
+    .container{
+        display: block;
+        background: url(j.jpg) no-repeat center/cover;
+        width: 650px;
+        height: 100vh;
+    }
+ .text h1{
+    padding-top: 60px;
+        padding-left: -70px;
+    }
+    #home{
+        display: block;
+    }
+     .bg{
+        margin-top: 0;
+    }
+    .df{
+        display: block;
+    }
+    .chap img{
+        width: 300px;
+        height: 170px;
+    }
+    .ung .btn button{
+        width: 100px;
+    }
+    .ung{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .text #card1{
+        width: 300px;
+        font: 10px sans-serif;
+        height: 150px;
+    }
+    .text #card2{
+        width: 300px;
+        font: 10px sans-serif;
+        height: 150px;
+    }
+    .text #card3{
+        width: 300px;
+        font: 10px sans-serif;
+        height: 150px;
+    }
+    #portfolio img{
+        width: 170px;
+        height: 170px;
+        display: block;
+    }
+    #mods{
+        display: block;
+        height: 85vh;
+        
+    }
+     .stolb1{
+        margin-left: 90px;
+    }
+    #mods .stolb1 li{
+        font-size: 18px;
+    }
+    #mods .stolb2 li{
+        font-size: 18px;
+    }
+    #mods .stolb2{
+        margin-left: 190px;
+        margin-top: 70px;
+        font-size: 10px;
+    }
+    
+}
